@@ -6,13 +6,7 @@
 		<div class="leftSpacer">
 			<div class="mainBlock">
 				<div>
-					<h4>Blazing fast file uploader. For real.</h4>
-					<p>
-						A <strong>modern</strong> and self-hosted file upload service that can handle anything you throw at it.
-					</p>
-					<p>
-						With a fast API, chunked file uploads out of the box, beautiful masonry-style file manager and both individual and album sharing capabilities, this little tool was crafted with the best user experience in mind.<br>
-					</p>
+					<h4>unorganized media</h4>
 					<div class="mt4" />
 					<Uploader v-if="config.publicMode || (!config.publicMode && loggedIn)" />
 					<div
@@ -21,7 +15,6 @@
 						This site has disabled public uploads. You need an account.
 					</div>
 
-					<Links />
 				</div>
 			</div>
 		</div>

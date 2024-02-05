@@ -72,7 +72,7 @@ const initChunks = async uuid => {
 const executeMulter = multer({
 	// Guide: https://github.com/expressjs/multer#limits
 	limits: {
-		fileSize: Util.config.maxSize * (1000 * 1000),
+		// fileSize: Util.config.maxSize * (1000 * 1000),
 		// Maximum number of non-file fields.
 		// Dropzone.js will add 6 extra fields for chunked uploads.
 		// We don't use them for anything else.
